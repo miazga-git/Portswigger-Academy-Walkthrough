@@ -17,7 +17,7 @@ I tried payload like that:
 
 But this didn't work for me. To be honest, I check out the solution and I found that I need to replace string in alert() function to number:
 
-<img src=1 onerror=alert(1)>
+<img src=\1 onerror=alert(\1)>
 
 Here we go!
 ![image](https://github.com/user-attachments/assets/c779784c-88ee-4559-9d6f-a7dab9171f9c)
