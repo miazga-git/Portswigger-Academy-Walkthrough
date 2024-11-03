@@ -14,3 +14,4 @@ to this:
 and that's all.
 
 ![image](https://github.com/user-attachments/assets/db451f80-1fbb-4831-803c-6bbbe1939e56)
+attention: ! in GET only add ?username=carlos, not /?username=carlos
