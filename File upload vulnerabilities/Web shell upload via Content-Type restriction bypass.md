@@ -10,4 +10,11 @@ So it is possible to intercept request uploading png file and change extension t
 
 URL to attack: `https://0a6700b6046a225a80176cf8002e0068.web-security-academy.net/files/avatars/webshell.php?cmd=cat+/home/carlos/secret`
 
+Another way to do this:
+1) Intercept the request:
+![image](https://github.com/user-attachments/assets/0864bf58-e505-4dfd-ba51-829afb664912)
+
+2) Change Content-Type to "legal" one (e.g. `Content-Type: image/png`):
+![image](https://github.com/user-attachments/assets/0656b68c-20d7-4b2c-a742-0860087c045d)
+
 
