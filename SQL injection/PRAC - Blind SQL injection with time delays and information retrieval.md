@@ -30,7 +30,6 @@ Review the attack results to find the value of the character at the first positi
 representing the number of milliseconds the application took to respond. One of the rows should have a larger number in this column, in the region of 10,000 milliseconds. The payload showing
 for that row is the value of the character at the first position. 
 
-3v46ts3
 
 
 
