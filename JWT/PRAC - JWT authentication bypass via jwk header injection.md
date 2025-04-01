@@ -51,6 +51,9 @@ command to get valid token:
 
 remember to use jwt_tool as kid parameter because these parameter is used in couple of places.
 
+# How token looks like with kid attack: 
+![image](https://github.com/user-attachments/assets/aac95d52-af64-4523-b642-2d961576d6fa)
+![image](https://github.com/user-attachments/assets/a4a125ac-812b-4674-8f84-f013d062f326)
 
 
 
