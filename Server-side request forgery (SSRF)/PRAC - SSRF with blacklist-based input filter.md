@@ -20,3 +20,5 @@ it worked:
 ![image](https://github.com/user-attachments/assets/13082a2f-49f6-4247-a38b-94e80f9c8ed7)
 
 in solution they say to double url encode 'a' letter in "admin" phrase but changing lower to upper case helped in my case.
+
+Obfuscate the "a" by double-URL encoding it to %2561
