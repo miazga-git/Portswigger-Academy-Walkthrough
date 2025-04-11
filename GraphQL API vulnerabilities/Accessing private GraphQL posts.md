@@ -12,7 +12,7 @@ I get response "Body cannot be empty"
 
 ![image](https://github.com/user-attachments/assets/0d7de297-6d15-43a1-8aee-ee4f0b092b00)
 
-![image](https://github.com/user-attachments/assets/708ff367-d16b-422d-9b8b-fa3a17303fd6)
+
 
 hint: `In Repeater, right-click anywhere in the Request panel of the message editor and select GraphQL > Set introspection query to insert an introspection query into the request body. `
 
@@ -24,6 +24,7 @@ I should use tool: http://nathanrandal.com/graphql-visualizer/ and the introspec
 
 ![image](https://github.com/user-attachments/assets/0d76580f-5a8d-4dda-a868-1f96fa2c2c0e)
 
+![image](https://github.com/user-attachments/assets/708ff367-d16b-422d-9b8b-fa3a17303fd6)
 `{"query": "{getBlogPost(id: 3) {id name listed}}"}`
 ![image](https://github.com/user-attachments/assets/174610c7-cedf-4414-a850-801219b91cc9)
 
