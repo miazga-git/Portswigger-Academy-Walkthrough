@@ -12,5 +12,6 @@ I have found the request to : `/forgot-password?temp-forgot-password-token=9fd3d
 
 I changed uername to carlos and that's all.
 
+I am not sure if there was need to delete `temp-forgot-password-token` from request, I think that it is not validated by the server so there is no need to delete this parameter from request.
 
 
