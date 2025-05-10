@@ -28,7 +28,6 @@ payload, which worked:
 
 ![image](https://github.com/user-attachments/assets/bdda6059-e695-4772-98a0-3c89b7b32659)
 
-![image](https://github.com/user-attachments/assets/36b96852-b4aa-4c7c-8587-2ba834640f63)
 
 
 ## Clue of this lab
