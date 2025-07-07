@@ -5,6 +5,12 @@ Desc: This lab doesn't adequately validate user input. You can exploit a logic f
 Walkthrough:
 ![image](https://github.com/user-attachments/assets/aa38cb77-0d3c-401c-be1a-b2356df5ec64)
 
+So I could make double `@` sign in email, but I had no idea how to truncate email to only have @proper.domain.com
+
+But I find out, that after providing email address longer than 255 chars it truncate from the last char.
+
+So I send payload as below and app make me dontwannacry.com user.
+
 `attackerxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@dontwannacry.com.exploit-0aa100110493338a81dca13d01f8006a.exploit-server.net`
 
 
