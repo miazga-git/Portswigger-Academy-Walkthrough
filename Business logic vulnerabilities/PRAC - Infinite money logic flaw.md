@@ -36,3 +36,9 @@ In the Payloads side panel, under Payload configuration, select the payload type
 Click on Resource pool to open the Resource pool side panel. Add the attack to a resource pool with the Maximum concurrent requests set to 1. Start the attack.
 When the attack finishes, you will have enough store credit to buy the jacket and solve the lab. 
 ```
+
+
+![image](https://github.com/user-attachments/assets/bf757a25-92f4-456e-87aa-de1734a925e1)
+
+
+There was no sense in waiting for 412 requests
