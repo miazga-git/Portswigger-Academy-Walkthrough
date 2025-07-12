@@ -17,5 +17,16 @@ I can try to use parameter: `/?abcde='/><script>alert(1)</script>` and I can see
 
 <img width="1564" height="493" alt="image" src="https://github.com/user-attachments/assets/d16f64b4-6b1c-4b78-bde5-7276ddfa1ce3" />
 
+So if query parameters in GET request are not keyed I can ask for / resource and I should still get XSS payload from the response:
 
+<img width="1492" height="430" alt="image" src="https://github.com/user-attachments/assets/02513a46-262e-47ac-bbd4-b267772fad6c" />
+
+Now, I can delete `Origin` header from the request - Origin was used as a cache buster. 
+Without cache buster I would make request (attack) for all.
+
+
+<img width="1248" height="355" alt="image" src="https://github.com/user-attachments/assets/cf56377e-9a92-4504-893a-776c3a74749d" />
+
+
+<img width="1341" height="382" alt="image" src="https://github.com/user-attachments/assets/b2d8b3c4-6ff6-478b-91fb-5495f95e95d9" />
 
