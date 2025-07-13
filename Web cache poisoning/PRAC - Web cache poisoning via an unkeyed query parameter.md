@@ -15,5 +15,10 @@ Below request I use to poison cache for all:
 
 <img width="1380" height="381" alt="image" src="https://github.com/user-attachments/assets/108e359d-39fd-4537-afa7-a3f7fda23589" />
 
+But how to guess, that we need to use utm_content parameter.
+"Use Param Miner's "Guess GET parameters" feature to identify that the parameter utm_content is supported by the application. "
+
+Let's try param miner then:
+<img width="885" height="320" alt="image" src="https://github.com/user-attachments/assets/992c38e2-d6bd-45fc-903f-427093cc779c" />
 
 
