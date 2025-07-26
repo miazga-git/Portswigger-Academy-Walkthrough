@@ -29,7 +29,10 @@ Now bruteforcing passwords.
 <img width="1360" height="455" alt="image" src="https://github.com/user-attachments/assets/4748830c-4ea9-4d32-9e1d-63466a738ff1" />
 
 we have password.
+<img width="819" height="252" alt="image" src="https://github.com/user-attachments/assets/3c0a8c31-1ba0-4209-8396-a947b90a6ed8" />
 
+
+The trick here was to observe time delays in username bruteforcing, but having long password (above 100chars) in the same time.
 
 
 
