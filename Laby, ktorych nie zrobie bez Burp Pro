@@ -4,5 +4,5 @@
 - Routing-based SSRF [HTTP Host header attacks]
 - SSRF via flawed request parsing [HTTP Host header attacks]
 - SSRF via OpenID dynamic client registration [OAuth authentication]
-
+- Blind XXE with out-of-band interaction [XML external entity (XXE) injection]
 
