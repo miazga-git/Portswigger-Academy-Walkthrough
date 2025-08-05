@@ -3,4 +3,6 @@
 - SameSite Strict bypass via sibling domain [Cross-site request forgery (CSRF)]
 - Routing-based SSRF [HTTP Host header attacks]
 - SSRF via flawed request parsing [HTTP Host header attacks]
+- SSRF via OpenID dynamic client registration [OAuth authentication]
+
 
