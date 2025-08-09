@@ -20,9 +20,7 @@ I change this string to `O:4:"User":2:{s:8:"username";s:13:"administrator";s:12:
 I decided to try to provide 0 as access_token and it's type is integer instead of string, so now during comparison provided 0 and some access_token as string I should always get TRUE.
 I also changed user to administrator.
 
-I need to encode by base64 and the url encode followed string and use this in requests.
-
-*However I did everything as in solution but in my case lab was not working.*
+I needed to encode by base64 and the url encode followed string and use this in requests.
 
 
 
