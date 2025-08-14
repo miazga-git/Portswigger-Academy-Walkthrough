@@ -1,0 +1,9 @@
+- Blind OS command injection with out-of-band interaction [OS command injection]
+- Blind OS command injection with out-of-band data exfiltration [OS command injection]
+- SameSite Strict bypass via sibling domain [Cross-site request forgery (CSRF)]
+- Routing-based SSRF [HTTP Host header attacks]
+- SSRF via flawed request parsing [HTTP Host header attacks]
+- SSRF via OpenID dynamic client registration [OAuth authentication]
+- Blind XXE with out-of-band interaction [XML external entity (XXE) injection]
+- Blind XXE with out-of-band interaction via XML parameter entities [XML external entity (XXE) injection]
+
