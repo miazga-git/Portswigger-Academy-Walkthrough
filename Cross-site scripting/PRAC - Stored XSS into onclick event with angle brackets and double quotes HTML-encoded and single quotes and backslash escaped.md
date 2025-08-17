@@ -12,4 +12,6 @@ string provided by website field is reflected on :
 
 payload to make this work: `http://foo?&apos;-alert(1)-&apos;` (add to website and url encode in burp)
 
+<img width="1396" height="784" alt="image" src="https://github.com/user-attachments/assets/c4997472-1fda-449d-ae49-2453c145c33b" />
 
+`http://foo?&apos;);alert(1);//`  - this payload also works
