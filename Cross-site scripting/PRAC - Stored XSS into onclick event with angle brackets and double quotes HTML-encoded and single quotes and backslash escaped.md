@@ -8,6 +8,7 @@ To solve this lab, submit a comment that calls the alert function when the comme
 
 <img width="634" height="471" alt="image" src="https://github.com/user-attachments/assets/8bb17987-9422-40fb-951b-bf763c583df5" />
 string provided by website field is reflected on: 
+
 ```
 <a id="author" href="https://website.com" onclick="var tracker={track(){}};tracker.track('https://website.com');">
 ```
