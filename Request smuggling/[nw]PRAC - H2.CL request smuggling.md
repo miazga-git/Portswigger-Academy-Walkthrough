@@ -29,3 +29,4 @@ x=1
 Accessing /resources you get redirection to HOST+PATH, so sending upper request will cause browser to ask for: https://exploit-0a6f00f603992f588173073601b2003d.exploit-server.net/resources
 
 
+It was not working in my case. 
