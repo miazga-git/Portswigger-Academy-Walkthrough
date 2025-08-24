@@ -29,5 +29,20 @@ Make sure, that protocol is HTTP/2.
 How to add `Foo:bar\n\rTransfer-Encoding: chunked` to request in Burp:
 <img width="1899" height="809" alt="image" src="https://github.com/user-attachments/assets/bdb968bf-feee-49e0-80c1-2d841dd6385b" />
 
+Every second request is not found now:
+<img width="1539" height="321" alt="image" src="https://github.com/user-attachments/assets/25f1f17c-f87d-47be-9e2f-6901ea9608cc" />
+
+
+Now I send this request:
+<img width="830" height="431" alt="image" src="https://github.com/user-attachments/assets/93470838-a177-4da0-b4b5-74e8e50fbac2" />
+Now, when I try to refresh the page I get this: 
+<img width="1106" height="696" alt="image" src="https://github.com/user-attachments/assets/1cef4a6b-ad17-456a-b6ce-28942995ede1" />
+
+So my GET request was added to search=x from smuggled request. Now i can try to refresh page and check for recent searches.
+
+After waiting 15seconds for victim request I refresh home page and in search history I can see victim's cookie. 
+<img width="805" height="285" alt="image" src="https://github.com/user-attachments/assets/a2f6fc67-ea5e-4646-980e-28e56e5c2fe4" />
+
+
 
 
